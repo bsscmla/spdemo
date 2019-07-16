@@ -460,8 +460,8 @@
                 url: '/api/user/login',
                 method: 'POST',
                 data: {
-                    name: $scope.data.name,
-                    password: $scope.data.password
+                    name: $scope.ldata.name,
+                    password: $scope.ldata.password
                 }
             }).then((res) => {
                 var oldId = currentUser.uniqueid;
